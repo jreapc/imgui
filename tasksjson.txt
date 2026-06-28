@@ -1,0 +1,40 @@
+Limes inn i tasks.json under "args"
+
+                "/std:c++17",
+                "/MD",
+                "/I", "${workspaceFolder}/imgui/tpi/imgui",
+                "/I", "${workspaceFolder}/imgui/tpi/glfw",
+                "/I", "${workspaceFolder}/imgui/tpi/backend",
+                "${workspaceFolder}/imgui/tpi/imgui/*.cpp",
+                "${workspaceFolder}/imgui/tpi/backend/*.cpp",
+                "/link",
+                "/LIBPATH:${workspaceFolder}/imgui/lib",
+                "glfw3.lib",
+                "opengl32.lib",
+                "user32.lib",
+                "gdi32.lib",
+                "shell32.lib"
+
+
+komplett liste fra et program som virker
+
+                "/Zi",
+                "/EHsc",
+                "/nologo",
+                "${file}",
+                "/Fe${fileDirname}/${fileBasenameNoExtension}.exe",
+                "/std:c++17",
+                "/MD",
+                "/I", "${workspaceFolder}/imgui/tpi/imgui",
+                "/I", "${workspaceFolder}/imgui/tpi/glfw",
+                "/I", "${workspaceFolder}/imgui/tpi/backend",
+                "${workspaceFolder}/imgui/tpi/imgui/*.cpp",
+                "${workspaceFolder}/imgui/tpi/backend/*.cpp",
+                "/link",
+                "/LIBPATH:${workspaceFolder}/imgui/lib",
+                "glfw3.lib",
+                "opengl32.lib",
+                "user32.lib",
+                "gdi32.lib",
+                "shell32.lib"
+
